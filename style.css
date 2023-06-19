@@ -1,15 +1,12 @@
+
 body {
     background-color: rgb(120, 160, 248);
 }
 
 h1 {
-    text-align: center;
-    width: 250px;
-    height: 10px;
+    text-align: left;
+    border-radius: 10px;
     background-color: white;
-    border-radius: 12px;
-    box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
-    padding: 25px;  
 }
 
 .text-box {
@@ -39,5 +36,8 @@ button:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
     box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
-    padding: 3.5rem;  
+    padding: 3.5rem;
+    align-items: center;
+    height: 50vh;
+    width: 75%;
 }
