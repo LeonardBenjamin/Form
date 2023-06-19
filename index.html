@@ -7,34 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Thông tin cá nhân</h1>
     <form>
-        <label for="username">Họ và Tên:</label>
-        <input type="text" name="username" id="username" placeholder="Tên của bạn">
+        <div class="text-box">
+            <label for="username">Họ và Tên:</label>
+            <input type="text" name="username" id="username" placeholder="Tên của bạn">
 
-        <label for="number">Tuổi</label>
-        <input type="number" name="number" id="number" max="100" min="1">
+            <label for="number">Tuổi:</label>
+            <input type="number" name="number" id="number" max="100" min="1">
 
-        <label for="ngaysinh">Ngày sinh</label>
-        <input type="date" name="ngaysinh" id="ngaysinh" value="2000-11-20">
+            <label for="ngaysinh">Ngày sinh:</label>
+            <input type="date" name="ngaysinh" id="ngaysinh" value="2000-11-20">
 
-        <label for="number">Số điện thoại:</label>
-        <input type="text" name="username" id="username" placeholder="Số điện thoại của bạn">
+            <label for="sex">Giới tính:</label>
+            <select name="sex" id="sex">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Khác">Khác</option>
+            </select>
 
-        <label for="username">Nghề nghiệp:</label>
-        <input type="text" name="jobs" id="jobs" placeholder="Nghề nghiệp của bạn">
+            <label for="number">Số điện thoại:</label>
+            <input type="text" name="username" id="username" placeholder="Số điện thoại của bạn">
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="Nhập email">
+            <label for="username">Nghề nghiệp:</label>
+            <input type="text" name="jobs" id="jobs" placeholder="Nghề nghiệp của bạn">
 
-        <label for="picture">Ảnh của bạn</label>
-        <input type="file" name="file">
-        
-        <label for="sex">Giới tính:</label>
-        <select name="sex" id="sex">
-            <option value="Nam">Nam</option>
-            <option value="Nữ">Nữ</option>
-            <option value="Khác">Khác</option>
-        </select>
-    </form> 
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Nhập email">
+
+            <label for="picture">Ảnh của bạn:</label>
+            <input type="file" name="file">
+        </div>
+
+        <button>Gửi</button>
+     </form> 
+   
 </body>
 </html>
