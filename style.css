@@ -9,14 +9,6 @@ h1 {
     background-color: white;
 }
 
-.text-box {
-    text-align: left;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-gap: 10px;
-    max-width: fit-content;
-}
-
 button {
     width: 20%;
     border: None;
@@ -37,7 +29,13 @@ button:hover {
     border-radius: 12px;
     box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
     padding: 3.5rem;
-    align-items: center;
+    align-items: left;
     height: 50vh;
-    width: 75%;
+}
+
+.text-box {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
 }
